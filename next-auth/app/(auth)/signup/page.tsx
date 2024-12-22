@@ -1,6 +1,10 @@
+import { SignupForm } from "@/components/auth/signup-form";
+
 const Signup = () => {
     return (
-        <div>Signup</div>
+        <div>
+            <SignupForm/>
+        </div>
     )
 }
 
